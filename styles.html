@@ -1,47 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width,
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width,
         initial-scale=1.0">
-        <link rel="/styles" type="text/css" href="styles.css">
+        <link rel="/styles" type="text/css" href="./styles_files/styles.css">
 
         <title>
             VirtualStudyWebsite
         </title>
     </head>
     <body>
-        <div class="container">
-            <div class="container" style="
-            align-items: center;
-            text-align: center;">
-            </div>
-
+        <div class="container" style="
+    align-items: center;
+    /* padding: 2px; */
+    text-align: center;
+">
             Virtual Study Home Page 
 
         </div>
-        <nav class = "navbar">
-            <ul class = "nav-list">
-                <div class = "logo"> <img src = "/css/image2.jpg" alt = "logo"></div>
-                <li class="item"><a href = '/'>home</a>
-                <li class="item"><a href = '/to-do'>todo</a>
-                <li class="item"><a href = '/flashcards'>flashcards</a>
-                </ul>
-                <div class = "rightNav">
-                    <imput type = "text" name = "search" id = "search">
-                    <button class = "btn btn-sm">Search</button>
-                </div>
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <div class="logo"> <img src="./styles_files/image2.jpg" alt="logo"></div>
+                <li class="item"><a href="http://localhost:3000/">home</a>/li&gt;
+                </li><li class="item"><a href="http://localhost:3000/discussion">discussion</a>/li&gt;
+                </li><li class="item"><a href="http://localhost:3000/flashcards">flashcards</a>/li&gt;
+                </li></ul>
+                <div class="rightNav">
+                    <imput type="text" name="search" id="search">
+                    <button class="btn btn-sm">Search</button>
+                </imput></div>
             </nav>
   
             
-</html>
 
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -117,8 +109,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 </style>
-</head>
-<body>
+
+
 
 <h2></h2>
 <p></p>
@@ -126,11 +118,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <button class="open-button" onclick="openForm()">Chat</button>
 
 <div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
+  <form action="http://localhost:3000/action_page.php" class="form-container">
     <h1>Chat</h1>
 
     <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
+    <textarea placeholder="Type message.." name="msg" required=""></textarea>
 
     <button type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
@@ -147,8 +139,8 @@ function closeForm() {
 }
 </script>
 
-</body>
-</html>
+
+
 
 
 
@@ -211,11 +203,12 @@ text-decoration: none;
     border:2px solid gray;
     border-radius: 9px;
 }
+
 .background{
-  background: rgba(0,0,0,0.7) url('/css/image4.jpg');
+  background: rgba(0,0,0,0.7) url('css/image4.jpg');
   background-size:cover;
   background-blend-mode: darken;
 }
 
-
 </style>
+</body></html>

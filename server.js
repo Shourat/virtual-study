@@ -7,7 +7,7 @@ const fs = require('fs');
 const hostname = '127.0.0.1';
 const port = 3000;
 const home = fs.readFileSync('nodeindex.html')
-const discussion = fs.readFileSync('./discussion.html')
+const todo = fs.readFileSync('./to-do.html')
 const flashcards = fs.readFileSync('./flashcards.html')
 
 const server = http.createServer((req, res)=>{
@@ -19,8 +19,8 @@ const server = http.createServer((req, res)=>{
     if(url == '/'){
         res.end(home);
     }
-    else if(url == '/discussion'){
-        res.end(discussion);
+    else if(url == '/to-do'){
+        res.end(todo);
     }
     else if(url == '/flashcards'){
         res.end(flashcards);

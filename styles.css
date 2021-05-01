@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo image{
+    width: 33%;
+    
+}
+.navbar{
+    display: flex;
+}
+.nav-list{
+
+width: 50%;
+background-color: white;
+display: flex;
+align-items: center;
+list-style: none;
+text-decoration: none;
+
+
+}
+.nav-list li{
+    list-style: none;
+    text-decoration: none;
+    padding: 34px;
+}
+.nav-list li a{
+    list-style: none;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    
+    text-decoration: hover;
+    color:grey;
+}
+.rightNav{
+    background-color: white;
+    width: 50%
+    
+
+}
